@@ -153,12 +153,6 @@ footer a {
   section {
       padding: 60px;
   }
-
-
-
-  .intro {
-      text-align: center;
-  }
   
   .intro p {
       line-break: 1.7;
@@ -168,22 +162,27 @@ footer a {
       margin: auto;
   }
 
+  .flex-row {
+    display: flex;
+  }
+
   .intro p{
       /* add this alongside yourother declarations */
       margin: 0 auto;
+      text-align: center;
   }
 
   .steps {
-      text-align: center;
       background: #fce138;
   }
 
   .section-title {
     font-size: 55px;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 
   }
 
@@ -220,7 +219,7 @@ footer a {
     font-size: 38px ;
 }
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
